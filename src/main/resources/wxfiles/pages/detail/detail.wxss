@@ -1,0 +1,29 @@
+/* pages/detail/detail.wxss */
+.contaration{
+  padding: 15rpx;
+  width: 700rpx;
+}
+.title{
+  line-height: 35rpx;
+  text-align: center;
+  font: 20rpx;
+  font-weight: bold;
+}
+.artical_con{
+  text-align: left;
+  font-size: 30rpx;
+  line-height: 35rpx;
+}
+.artical_con image{
+  width: 100%;
+  height: 400rpx;
+}
+.add_date{
+  display:inline-block;
+  width: 100%;
+  line-height: 30rpx;
+  font-size: 30rpx;
+  text-align: right;
+
+  
+}

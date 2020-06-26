@@ -1,0 +1,15 @@
+<view  class="top">
+  <block wx:if="{{isLogin}}"> 
+    <image src="{{picture}}"></image>
+    <text>{{nickname}}</text>
+  </block>
+  <button wx:else open-type="getUserInfo" bindgetuserinfo='getlogin'>授权登录</button>
+
+</view>
+<view class="img_con">
+  <text >我的收藏({{num}})</text>
+  <view wx:for="{{imglist}}" wx:key='{{item.id}}' class='img_list'>
+    <image src='{{item.poster}}'></image>
+    <text bindtap="showDetail" data-id="{{item.newsId}}">{{item.title}}-{{item.add_date}}</text>
+  </view>
+</view>

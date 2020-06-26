@@ -1,0 +1,10 @@
+<view class="contaration">
+  <view class="title">{{artical.title}}</view>
+    <view  class='artical_con'>
+      <image src='{{artical.poster}}'></image>
+      <text>{{artical.content}}</text>
+  </view>
+  <text class='add_date'>{{artical.add_date}}</text>
+  <button wx:if="{{isAdd}}" plain bindtap="removeFavorate">❤已收藏</button>
+  <button wx:else plain bindtap="addFavorate">❤未收藏</button>
+</view>
