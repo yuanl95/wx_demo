@@ -1,0 +1,16 @@
+# 项目基本设置
+server:
+  port: 8080
+  servlet:
+    context-path: /
+# SQLserver 驱动连接设置
+jdbc:
+  driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  user: sa
+  password: 123
+  url: jdbc:sqlserver://localhost:1433;DatabaseName=liberary
+  
+# MyBatis配置设置
+mybatis_config_file: mybatis-config.xml
+mapper_path: /mapper/**.xml
+entity_package: com.liberary.demo.entity

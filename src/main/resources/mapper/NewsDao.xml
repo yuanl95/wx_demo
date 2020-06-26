@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liberary.demo.dao.NewsDao">
+	<select id="getNewsList" resultType="com.liberary.demo.entity.News">
+		SELECT 
+		c1.id,
+		c1.title,
+		c1.poster,
+		c1.add_date,
+		c1.content ,
+		c1.newsId
+		FROM news c1
+	</select>
+	<select id="getNewsById" resultType="com.liberary.demo.entity.News">
+		SELECT 
+			c1.id,
+			c1.title,
+			c1.poster,
+			c1.add_date,
+			c1.content ,
+			c1.newsId
+		FROM news c1
+		WHERE
+		c1.id=#{id}
+		order by c1.id
+	</select>
+	<select id="getNewsByNewsId" resultType="com.liberary.demo.entity.News">
+		SELECT 
+			c1.id,
+			c1.title,
+			c1.poster,
+			c1.add_date,
+			c1.content ,
+			c1.newsId
+		FROM news c1
+		WHERE
+		c1.newsId=#{newsId}
+		order by c1.newsId
+	</select>
+</mapper>
