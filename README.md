@@ -15,3 +15,8 @@
 ## advice(建议)
  * Eclipse不是必须的开发平台，当然也可以使用IntelliJ IDEA作为开发工具。
  * sqlserver 2014也可以使用MySQL替换，不过需要修改application.yml配置文件中的jdbc配置。
+## reference(参考的资源)
+* [微信小程序2019快速入门+四个实战小程序](https://www.bilibili.com/video/BV1i4411c7dU)
+* [微信小程序后端教学之新闻网开发](https://www.bilibili.com/video/BV1G7411P7Re?t=140&p=9)
+* [SpringBoot+MyBatis搭建迷你小程序](https://www.imooc.com/learn/945)
+
