@@ -1,7 +1,7 @@
 # wx_demo
 一个实现了收藏和加载新闻功能的使用springboot+mybatis框架的微信小程序项目
 ## Requirements（需要）
-  *Eclipse（可替换）
+*Eclipse（可替换）
     *jdk >=1.8（必要）
     *springboot（必要）
   *maven（必要）
