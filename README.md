@@ -10,8 +10,8 @@
 ## optional(可选)
 * Postman（校验后台返回前段的JSON对象）
 ## Running(运行)
-请下载SQL数据(链接：https://pan.baidu.com/s/1XhwgsZCG6_99UhIRECBFKA 提取码：810n )
-  在导入完代码和数据库的数据后，需要修改application.yml中的user和password:为本地配置的数据库的账户和密码，再运行LiberaryApplication.java文件，以此开启后端服务。然后再在微信开发者工具中运行前段的文件。
+* 请下载[SQL数据](https://pan.baidu.com/s/1XhwgsZCG6_99UhIRECBFKA )提取码：810n
+* 在导入完代码和数据库的数据后，需要修改application.yml中的user和password:为本地配置的数据库的账户和密码，再运行LiberaryApplication.java文件，以此开启后端服务。然后再在微信开发者工具中运行前段的文件。
 ## advice(建议)
  * Eclipse不是必须的开发平台，当然也可以使用IntelliJ IDEA作为开发工具。
  * sqlserver 2014也可以使用MySQL替换，不过需要修改application.yml配置文件中的jdbc配置。
